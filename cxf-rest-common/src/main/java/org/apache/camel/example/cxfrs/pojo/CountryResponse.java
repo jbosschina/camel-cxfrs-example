@@ -5,7 +5,9 @@ import java.util.Map;
 public class CountryResponse {
 
 	private Map<String, Country> countries;
+	
 	private String message;
+	
 	public Map<String, Country> getCountries() {
 		return countries;
 	}
@@ -21,8 +23,7 @@ public class CountryResponse {
 	
 	@Override
 	public String toString() {
-		return "CountryResponse [countries=" + countries + ", message="
-				+ message + "]";
+		return "CountryResponse [countries=" + countries + ", message=" + message + "]";
 	}
 	
 	
